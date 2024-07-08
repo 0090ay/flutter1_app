@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'homepage.dart'; // Import the HomeScreen widget
+import 'login_page.dart'; // Import the HomeScreen widget
 
 void main() => runApp(MyApp());
 
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: LoginPage(),
       routes: {
-        '/home': (context) => HomeScreen(),
+        '/home': (context) => LoginPage(),
       },
     );
   }
